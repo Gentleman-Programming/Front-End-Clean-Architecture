@@ -16,7 +16,7 @@ Si quieres hacer una donación: https://streamelements.com/gentlemanprogramming/
 #comunidad #canal #server #discord #programming #eldenring #podcast #discordserver #members #live #stream  #gameplay #fromsoftware #clase #ReactJs #customHooks #hooks #lifecyle #componentes #framework #library
 
 ▬ Links de interés  ▬▬▬▬▬▬▬▬▬▬
-Link a Spotify: https://spoti.fi/3y281cY
-Link a la comunidad: https://discord.gg/KEavKkDc5Y
-Link a la comunidad de Facebook: https://shorturl.at/jkmL6
-Link al libro "Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web": https://amzn.to/2ReBuzL
+* Link a Spotify: https://spoti.fi/3y281cY
+* Link a la comunidad: https://discord.gg/KEavKkDc5Y
+* Link a la comunidad de Facebook: https://shorturl.at/jkmL6
+* Link al libro "Cómo ser front-end sin fallar en el intento: Tus primeros pasos en la programación web": https://amzn.to/2ReBuzL
