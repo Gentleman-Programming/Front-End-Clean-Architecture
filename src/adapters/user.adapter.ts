@@ -1,10 +1,5 @@
-import { EndpointUser, User } from '@/models';
-
-export const createAddaptedUser = (user: EndpointUser) => {
-  const formattedUser: User = {
-    name: user.name,
-    lastName: user.last_name
-  };
-
-  return formattedUser;
-};
+export const createUserAdapter = (user: any) => ({
+  name: user.data.name,
+  gender: user.data.gender,
+  status: user.data.status
+});

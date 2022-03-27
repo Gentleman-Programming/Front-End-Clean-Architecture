@@ -11,18 +11,6 @@ export const LayoutContainer = styled.div`
   padding: 4rem;
 `;
 
-export const Heading = styled.div`
-  flex-direction: row;
-  box-sizing: border-box;
-  display: flex;
-  background-color: #ffffff;
-  color: #212529;
-  margin: 0;
-  border-radius: 4px;
-  padding: 20px 0 20px 20px;
-  max-height: 85px;
-`;
-
 export const MainContainer = styled.div`
   background-color: white;
   position: relative;

@@ -10,9 +10,8 @@ import theme from './theme';
 import { SnackbarUtilsConfigurator } from './utilities';
 
 // Routes
-const Dashboard = lazy(() => import('@/pages/Dashboard/Dashboard'));
-const DashboardFix = lazy(() => import('@/pages/Dashboard/DashboardFix'));
 const DashboardSuperFix = lazy(() => import('@/pages/Dashboard/DashboardSuperFix'));
+const Login = lazy(() => import('@/pages/Login/Login'));
 
 const App = () => {
   return (
@@ -25,17 +24,8 @@ const App = () => {
               <Provider store={store}>
                 <BrowserRouter>
                   <Routes>
-                    <Route path="/" element={<Navigate to={`dashboard`} />} />
-                    <Route
-                      path={`dashboard/*`}
-                      element={
-                        <div>
-                          {/* <Dashboard /> */}
-                          {/* <DashboardFix /> */}
-                          <DashboardSuperFix />
-                        </div>
-                      }
-                    />
+                    <Route path="/" element={<Login />} />
+                    <Route path={`dashboard/*`} element={<DashboardSuperFix />} />
                   </Routes>
                 </BrowserRouter>
               </Provider>

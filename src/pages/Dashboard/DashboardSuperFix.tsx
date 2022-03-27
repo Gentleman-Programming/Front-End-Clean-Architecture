@@ -1,8 +1,8 @@
 import { useAsync, useFetchAndLoad } from '@/hooks';
-import { getCoolMorty, getCoolRick } from '@/services';
+import { getCoolMorty, getCoolRick } from '@/services/public.service';
 import { LayoutContainer } from '@/styled-components';
 import { Tab, Tabs } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const Component1 = () => {
   const { loading, callEndpoint } = useFetchAndLoad();

@@ -9,6 +9,7 @@
     "prod": "vite --mode prod",
     "serve": "vite preview",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
