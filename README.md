@@ -4,8 +4,6 @@
 
 **Fuente del Video**: [Cómo estructurar tu project de ReactJs? Aplicamos Clean Architecture en Front End - #part1](https://www.youtube.com/watch?v=5LqhlCd2_nE)
 
-![Miniatura del video](https://www.youtube.com/watch?v=5LqhlCd2_nE)
-
 ## Introducción
 
 Este documento proporciona una guía detallada sobre la aplicación de la Clean Architecture en proyectos de ReactJs, orientándonos hacia una estructuración eficiente y una gestión eficaz del estado y de los componentes.
